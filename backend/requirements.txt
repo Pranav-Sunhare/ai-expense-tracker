@@ -1,0 +1,24 @@
+# Backend secrets & env files
+backend/.env
+backend/*.env
+.env
+
+# Virtual Environment
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+backend/**/__pycache__/
+
+# Uploaded images (Receipts)
+backend/uploads/
+uploads/
+
+# Frontend dependencies & build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/build/
